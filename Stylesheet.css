@@ -1,1 +1,17 @@
 
+/* styles the skills, languages, */
+.personalContent{
+    margin-left: 75px;
+    font-weight: bold;
+}
+/* styles navbar buttons so that hyperlink is not blue and underlined */
+.no-style{
+    color: white;
+    text-decoration: none !important;
+}
+/* styles  */
+.bottomSpacing{
+    margin-bottom: 50px;
+}
+
+

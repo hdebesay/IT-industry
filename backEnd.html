@@ -8,71 +8,37 @@
 
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="Stylesheet.css">
 </head>
 <body>
-    <!-- navigation bar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <!-- components -->
-        <!-- top nav container -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <!-- branding -->
-            <a class="navbar-brand" href="mainPage.html">
-                <!-- use image address to insert pic; alt in case pic is not avail -->
-                <img alt="" src="https://tse4.mm.bing.net/th?id=OIP.4N2nxe_o0PFSL7aM8Mq8SgHaHa&pid=Api&P=0&w=168&h=168" width="30" height="24" class="d-inline-block algin-text-top">
-                Branding
+            <a class="navbar-brand">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/003/377/380/small/line-icon-for-web-develop-vector.jpg" alt="" width="50" height="30" class="d-inline-block align-text-top">
+                Software Development Jobs
             </a>
-
-            <!-- button for hamburger menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- to collapse menu  -->
+            </button>  
             <div class="collapse navbar-collapse" id="navbar1">
-                <!-- unordered list for menu -->
                 <ul class="navbar-nav d-flex me-auto">
-                    <!-- each item of menu in navbar -->
                     <li class="nav-item active">
-                        <!-- make item hyperlink -->
-                        <a class="nav-link" href="mainPage.html">Home</a>
+                        <button id="search" class="btn btn-outline-light" type="submit"><a class="no-style" href="index.html">Home</a></button>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <button id="search" class="btn btn-outline-light" type="submit" ><a class="no-style" href="about.html">About Us</a></button>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="https://www.github.com/">GitHub</a>
+                        <button id="search" class="btn btn-outline-light" type="submit"><a class="no-style" href="FrontEnd.html">Front-End</a></button>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="https://www.Amazon.com/">Amazon</a>
-                    </li>
-                    <!-- call nav item drop down -->
-                    <li class="nav-item dropdown">
-                        <!-- reference dropdown class -->
-                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
-                        <!-- drop down items -->
-                        <ul class="dropdown-menu">
-
-                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
-                            
-                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
-                            
-                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
-                            
-                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
-                            
-                        </ul>
+                        <button id="search" class="btn btn-outline-light" type="submit"><a class="no-style" href="fullstack.html">Full-Stack</a></button>
                     </li>
                 </ul>
-
-                <!-- search bar and button, d-flex class to align objects in container -->
-                <form action="/testing" class="d-flex">
-                    <!-- me-2 is margin to add space between input and button -->
-                    <input class="form-control me-2" type="search" placeholder="Search">
-
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            
-
+                <form class="d-flex" action="testing">
+                    <input class="form-control me-2" type="search" placeholder="Jobs">
+                    <input class="form-control me-2" type="search" placeholder="Zip">
+                    <button id="search" class="btn btn-outline-light" type="submit">Search</button>
             </div>
         </div>
     </nav>
@@ -80,11 +46,71 @@
 <br>
 
     <!-- Title and description -->
-    <div></div>
+    <div>
+        <h1  class="display-3 text-center text-dark"> Back-End Developer</h1>
+        <p class="lead text-center">Description</p>
+    </div>
 
-
+<hr>
     <!-- Roles, skills, jobs -->
-    <div></div>
+    <div class="container-lg">
+        <!-- SKILLS -->
+        <div class="personalContent">Skills:</div>
+            <ul class="text-center">
+            <li class="d-inline-block m-5">java</li>
+            <li class="d-inline-block m-5">C#</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            </ul>
+
+
+             <!-- ROLES -->
+             <div class="personalContent">Roles:</div>
+             <ul class="text-center">
+             <li class="d-inline-block m-5">java</li>
+             <li class="d-inline-block m-5">C#</li>
+             <li class="d-inline-block m-5">blah</li>
+             <li class="d-inline-block m-5">blah</li>
+             <li class="d-inline-block m-5">blah</li>
+             <li class="d-inline-block m-5">blah</li>
+             <li class="d-inline-block m-5">blah</li>
+             <li class="d-inline-block m-5">blah</li>
+             </ul>
+
+
+            <!-- PROGRAMMING LANGUAGES -->
+            <div class="personalContent">Programming Languages:</div>
+            <ul class="text-center">
+            <li class="d-inline-block m-5">java</li>
+            <li class="d-inline-block m-5">C#</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            <li class="d-inline-block m-5">blah</li>
+            </ul>
+
+
+            <!-- Job Link -->
+            <div class="bottomSpacing" class="personalContent">Job Link: <a href="">Junior Back-End Developer Jobs</a></div>
+
+<hr>
+            
+            
+
+
+
+                
+    </div>
+
+
+     <!-- javascript bootstrap link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
