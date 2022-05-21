@@ -9,9 +9,34 @@
     color: white;
     text-decoration: none !important;
 }
+/* margin for main page title */
+.titleMargin{
+    margin-top: 40px;
+}
+/* Project description margin */
+.projectDes{
+    margin-top: 25px;
+}
 /* styles  */
 .bottomSpacing{
     margin-bottom: 50px;
 }
 
+/* mainpage coder jump */
+.jumpPic{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    height: 85px;
+    width: 95px;
+}
 
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
