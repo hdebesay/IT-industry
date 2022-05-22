@@ -12,40 +12,15 @@
 <link rel="stylesheet" href="Stylesheet.css">
 </head>
 
-<style>
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
+ <style>
 
-.column img{
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-
-.column p{
-    font-weight: bold;
-}
-
-.column img{
-  display: block;
-  margin: auto;
-}
-
-.column p{
-    padding-top: 10px;
-    text-align: center;
-}
-
-.column div{
-    text-align: center;
+.rounded-circle{
+    border: 50%;
+    border-radius: 1px black solid;
 }
 
 
-</style>
+</style> 
 
 
 <body>
@@ -90,41 +65,55 @@
     </div>
 
 <hr>
-    <div class="container-lg">
+    <div class="container card bottomSpacing">
     
-        <div class="row">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
 
-            <div class="column">
-
-                <img src="photos/justin.jpeg" alt="professional headshot of a student">
-                <p>Justin | Aspiring UI/UX Designer</p>
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab eaque a at officiis sit alias blanditiis rem quae. Repudiandae quos enim dolor facere vitae minima fugiat veritatis, animi at.
+            <div class="col">
+                <div class="card h-100">
+                    <img class="rounded-circle border border-dark" src="photos/justin.jpeg" alt="professional headshot of a student">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Justin | Aspiring UI/UX Designer</h5>
+                        <p class="description text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab eaque a at officiis sit alias blanditiis rem quae. Repudiandae quos enim dolor facere vitae minima fugiat veritatis, animi at.
+                        </p>
+                    </div>
                 </div>
+                
 
             </div>
 
 
-            <div class="column">
+            <div class="col">
+                <div class="card h-100">
+                    <img class="rounded-circle border border-dark" src="photos/dolor.jpeg" alt="professional headshot of a student">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Dolor | Aspiring Back-End Developer</h5>
+                        <p class="description text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab eaque a at officiis sit alias blanditiis rem quae. Repudiandae quos enim dolor facere vitae minima fugiat veritatis, animi at.
+                        </p>
+                    </div>
+                </div>
+                
 
-                <img src="photos/dolor.jpeg" alt="professional headshot of a student">
-                <p>Dolor | Aspiring Back-End Developer</p>
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab eaque a at officiis sit alias blanditiis rem quae. Repudiandae quos enim dolor facere vitae minima fugiat veritatis, animi at.
-                </div> 
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img class="rounded-circle border border-dark" src="photos/henok.jpeg" alt="professional headshot of a student">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"">Henok | Aspiring Front-End Developer</h5>
+                        <p class="description text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab eaque a at officiis sit alias blanditiis rem quae. Repudiandae quos enim dolor facere vitae minima fugiat veritatis, animi at.
+                        </p>
+                    </div>
+                </div>
+                
 
             </div>
 
 
-            <div class="column">
+            
 
-                <img src="photos/henok.jpeg" alt="professional headshot of a student">
-                <p>Henok | Aspiring Front-End Developer</p>
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab eaque a at officiis sit alias blanditiis rem quae. Repudiandae quos enim dolor facere vitae minima fugiat veritatis, animi at.
-                </div> 
 
-            </div>
+            
 
 
         </div>
@@ -134,7 +123,11 @@
         
 
             <!-- Job Link -->
-            <div class="bottomSpacing" class="personalContent"><p>Go back:</p><a href="index.html">Home</a></div>
+            <div class="bottomSpacing footer" class="personalContent">
+                
+                <p>Go back:<a href="index.html">Home</a></p>
+            
+            </div>
 
                 
     </div>     
