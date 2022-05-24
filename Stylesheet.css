@@ -30,6 +30,10 @@
     width: 95px;
 }
 
+/* personal page jumping pic */
+.personalJump{
+    margin-top: 35px;
+}
 
 
 @-webkit-keyframes mover {
