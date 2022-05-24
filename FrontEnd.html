@@ -41,10 +41,13 @@
                         <button id="search" class="btn btn-outline-light" type="submit"><a class="no-style" href="fullstack.html">Full-Stack</a></button>
                     </li>
                 </ul>
-                <form class="d-flex" action="https://www.glassdoor.com/Search/results.htm?">
-                    <input class="form-control me-2" type="search" placeholder="Jobs">
-                    <input class="form-control me-2" type="search" placeholder="Zip">
-                    <button id="search" class="btn btn-outline-light" type="submit">Search</button>
+                <form class="d-flex" method="get" action="https://www.indeed.com/jobs">
+                    <input class="form-control me-2" name="q" type="text" placeholder="Jobs" required>
+
+                    <input class="form-control me-2" name="l" type="text" placeholder="Location">
+
+                    <button id="jobSearch" class="btn btn-outline-light" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
